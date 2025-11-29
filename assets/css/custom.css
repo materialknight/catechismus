@@ -1,0 +1,51 @@
+p {
+   font-size: 1rem;
+}
+
+blockquote {
+   letter-spacing: normal;
+   color: #646161;
+}
+
+.right-aligned {
+   text-align: right;
+}
+
+.two-cols {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: repeat(8, auto);
+   grid-auto-flow: column;
+   column-gap: 10px;
+}
+
+ul {
+   margin-left: 26px;
+   padding-left: 4px;
+}
+
+ul:has(ul) {
+   border-left: 1px inset;
+}
+
+li:has(ul) {
+   list-style-type: disclosure-open;
+}
+
+.upper-roman {
+   list-style-type: upper-roman;
+   border-left: none
+}
+
+h5,
+h6 {
+   font-size: 20px;
+}
+
+@media screen and (max-width: 800px) {
+
+   h5,
+   h6 {
+      font-size: 18px;
+   }
+}
