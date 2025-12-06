@@ -11,6 +11,10 @@ blockquote {
    text-align: right;
 }
 
+.center-aligned {
+   text-align: center;
+}
+
 .two-cols {
    display: grid;
    grid-template-columns: 1fr 1fr;
