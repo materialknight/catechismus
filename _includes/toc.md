@@ -328,6 +328,7 @@
          - [Artículo 2: Las exequias cristianas](p2-s2-c4#a2) (1680-1690)
             - [La última Pascua del cristiano](p2-s2-c4#a2-t1)
             - [La celebración de las exequias](p2-s2-c4#a2-t2)
+            {:.upper-roman}
 - [Tercera parte: La vida en cristo](p3-s1) (1691-1698)
    - [Primera sección: La vocación del hombre: La vida en el Espíritu](p3-s1#s1) (1699)
       - [Capítulo primero: La dignidad de la persona humana](p3-s1-c1) (1700)
