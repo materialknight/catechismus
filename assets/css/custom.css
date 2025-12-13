@@ -23,6 +23,14 @@ blockquote {
    column-gap: 10px;
 }
 
+.three-cols {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-rows: repeat(12, auto);
+   grid-auto-flow: column;
+   column-gap: 10px;
+}
+
 ul {
    margin-left: 26px;
    padding-left: 4px;
