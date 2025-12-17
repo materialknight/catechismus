@@ -492,7 +492,7 @@
    - [Primera sección: La oración en la vida cristiana](p4-s1#s1)
       - [¿Qué es la oración?](p4-s1#t1)
       - [Capítulo primero: La revelación de la oración](p4-s1-c1) (2566-2567)
-         - [Vocación universal a la oración](p4-s1-c1)
+         - [Vocación universal a la oración](p4-s1-c1#t1)
          - [Artículo 1: En el Antiguo Testamento](p4-s1-c1#a1) (2568-2597)
             - [Resumen](p4-s1-c1#a1-t1)
          - [Artículo 2: En la plenitud de los tiempos](p4-s1-c1#a2) (2598-2622)
