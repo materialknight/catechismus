@@ -524,8 +524,8 @@
             - [La humilde vigilancia de la oración](p4-s1-c3#a2-t2)
             - [La confianza filial](p4-s1-c3#a2-t3)
             - [Perseverar en el amor](p4-s1-c3#a2-t4)
-            - [La oración de la Hora de Jesús](p4-s1-c3#a2-t5)
             {:.upper-roman}
+            - [La oración de la Hora de Jesús](p4-s1-c3#a2-t5)
             - [Resumen](p4-s1-c3#a2-t6)
    - [Segunda sección: La oración del Señor: «Padre Nuestro»](p4-s2) (2759-2760)
       - [Artículo 1: «Resumen de todo el Evangelio»](p4-s2#a1) (2761-2776)
@@ -549,6 +549,6 @@
          - [«Perdona nuestras ofensas como también nosotros perdonamos a los que nos ofenden»](p4-s2#a3-t5)
          - [«No nos dejes caer en la tentación»](p4-s2#a3-t6)
          - [«Y líbranos del mal»](p4-s2#a3-t7)
-         - [La doxología final](p4-s2#a3-t8)
          {:.upper-roman}
+         - [La doxología final](p4-s2#a3-t8)
          - [Resumen](p4-s2#a3-t9)

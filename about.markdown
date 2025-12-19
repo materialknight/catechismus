@@ -10,7 +10,7 @@ Cada numeral es un enlace que puede copiarse y compartirse.
 
 El botón del lado inferior derecho abre y cierra la tabla de contenido.
 
-Puedes colorear un numeral o hacerle anotaciones con el menú que aparece al darle doble click. Los versículos con anotaciones tendrán un delgado borde superior e inferior.
+<!-- Puedes colorear un numeral o hacerle anotaciones con el menú que aparece al darle doble click. Los versículos con anotaciones tendrán un delgado borde superior e inferior. -->
 
 Algunos navegadores te permiten instalar este sitio como una aplicación aparte, pero la ubicación de esta opción varía. En navegador de escritorio, suele aparecer un ícono de descarga en la barra de dirección; en los siguientes dos ejemplos (Edge y Chrome) es el ícono de la izquierda:
 
