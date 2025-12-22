@@ -2,7 +2,6 @@
 
 const toc = document.getElementById("toc")
 const text_sections = Array.from(document.querySelectorAll("h1, h2, h3, h4, h5, h6, p"))
-const headings = text_sections.filter(txt_sec => /^h[1-6]$/i.test(txt_sec.tagName))
 
 // Map every <p>, <h1>, <h2>, etc. to a <li> in the table of contents.
 const zip = []
@@ -10,26 +9,26 @@ let toc_heading = null
 let href = window.location.pathname.split("/").at(-1)
 for (const txt_section of text_sections)
 {
-   // txt_section is <h1>, <h2>... or <h6>
-   if (/^h[1-6]$/i.test(txt_section.tagName))
+   if (/^h1$/i.test(txt_section.tagName)) // txt_section is <h1>
    {
-      // txt_section is <h1>
-      if (/^h1$/i.test(txt_section.tagName))
+      toc_heading = toc.querySelector(`[href="${href}"]`)?.closest("li")
+   }
+   else if (/^h[2-6]$/i.test(txt_section.tagName))// txt_section is <h2>, <h3>... or <h6>
+   {
+      const toc_li = toc.querySelector(`[href="${href}#${txt_section.id}"]`)?.closest("li")
+      if (toc_li)
       {
-         toc_heading = toc.querySelector(`[href="${href}"]`).closest("li")
-      }
-      else // txt_section is <h2>, <h3>... or <h6>
-      {
-         const toc_li = toc.querySelector(`[href="${href}#${txt_section.id}"]`)?.closest("li")
-         if (toc_li)
-         {
-            toc_heading = toc_li
-         }
+         toc_heading = toc_li
       }
    }
-   zip.push([txt_section, toc_heading])
+   if (toc_heading)
+   {
+      zip.push([txt_section, toc_heading])
+   }
 }
+
 const toc_map = new Map(zip)
+const headings = Array.from(toc_map.keys())
 let cleanup = []
 
 window.addEventListener("scrollend", mark_toc)
