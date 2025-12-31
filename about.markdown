@@ -27,21 +27,12 @@ En Brave para móvil está en:
 
 `... > Add to Home screen > Install`
 
-## Sobre nuevas características e integración con otras obras.
+## Sobre nuestra labor.
 
-En el futuro habrá:
-
-1. Posiblemente algunas notas más.
-2. El texto en otros idiomas.
-
-También estamos adaptando la Biblia Straubinger al mismo formato de este libro digital; e idealmente, queremos vincular las 2 obras entre sí, por ejemplo: Que toda referencia bíblica aquí (como Malaquías 1:11) dirija a la Biblia Straubinger, y que toda referencia a la *Didajé* en la Biblia Straubinger y en el Catecismo, dirija aquí.
-
-Luego queremos agregar a esa lista de obras interconectadas, en este mismo formato, otras obras eclesiásticas, como las cartas de Clemente.
-
-Si quisieras ayudarnos en esta tarea editorial, puedes hacerlo de 3 maneras:
+Nuestra labor consiste en adaptar obras de doctrina católica a un formato digital fácil leer, navegar y referenciar, de manera que también estén conectadas entre sí. Por ejemplo, cuando nuestra versión digital del [Catecismo](https://materialknight.github.io/catechismus/) cita la [Didajé](https://materialknight.github.io/didache/) o la [Epístola a Diogneto](https://materialknight.github.io/epistula-ad-diognetum/), la referencia en el Catecismo es un enlace al pasaje correspondiente de esas obras. Nuestro fin es conectar de esa manera el Catecismo a todas sus fuentes. Si quisieras ayudarnos en esta gran tarea editorial, puedes hacerlo de 3 maneras:
 
 1. Con tus oraciones.
-2. Reportando cualquier error en el contenido o en el funcionamiento del sitio; en el pie de página está el perfil de GitHub donde está el repositorio de este sitio; ahí puedes enviarnos tu reporte o corrección.
+2. Reportando cualquier error en el contenido o en el funcionamiento del sitio; en el pie de página está el perfil de GitHub con el repositorio de este sitio; ahí puedes enviarnos tu reporte o corrección.
 3. Con una ofrenda por este medio:
 
 <div class="big-img-container">
