@@ -1,0 +1,17 @@
+{
+   "name": "Catecismo de la Iglesia Católica",
+   "short_name": "Catecismo de la Iglesia Católica",
+   "description": "Edición digital del Catecismo de la Iglesia Católica, cuyo nombre latino es «Catechismus Catholicae Ecclesiae».",
+   "theme_color": "#e5fafd",
+   "background_color": "#e5fafd",
+   "display": "minimal-ui",
+   "orientation": "any",
+   "start_url": "/catechismus/",
+   "icons": [
+      {
+         "src": "./assets/images/favicon.png",
+         "sizes": "512x512",
+         "type": "image/png"
+      }
+   ]
+}

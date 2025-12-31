@@ -20,5 +20,7 @@
 
 <button popovertarget="font-options"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"><path d="M256-240h84l44-122h192l44 122h84L522-720h-84L256-240Zm152-192 70-198h4l70 198H408ZM160-80q-33 0-56.5-23.5T80-160v-640q0-33 23.5-56.5T160-880h640q33 0 56.5 23.5T880-800v640q0 33-23.5 56.5T800-80H160Zm0-80h640v-640H160v640Zm0-640v640-640Z"/></svg></button>
 
-<script type="module" src="assets/js/toc.js"></script>
 <script type="module" src="assets/js/font.js"></script>
+<!-- index.js must be manually included in all pages that don't use this component so that the service worker is registered regardless of the page the user visits. -->
+<script type="module" src="assets/js/index.js"></script>
+<script type="module" src="assets/js/toc.js"></script>
