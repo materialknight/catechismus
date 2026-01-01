@@ -1,7 +1,7 @@
 "use strict"
 
 // All GitHub pages under the same account share the same origin, so the cache must always have a distinctive name (not only the number) so that it won't interfere with the cache of another GitHub page.
-const CURRENT_CACHE = "catechismus-1.0.0"
+const CURRENT_CACHE = "catechismus-1.0.1"
 
 self.addEventListener("install", cache_everything)
 self.addEventListener("activate", del_prev_caches)
@@ -25,7 +25,38 @@ const cacheable_responses = [
    sw_scope.concat("assets/images/QR_BTC.jpeg"),
    sw_scope.concat("assets/js/font.js"),
    sw_scope.concat("assets/js/index.js"),
-   sw_scope.concat("assets/js/toc.js")
+   sw_scope.concat("assets/js/toc.js"),
+   sw_scope.concat("00_intro/01_laetamur_magnopere.md"),
+   sw_scope.concat("00_intro/02_fidei_depositum.md"),
+   sw_scope.concat("00_intro/03_prologo.md"),
+   sw_scope.concat("01_parte_primera/p1_s1_c0.md"),
+   sw_scope.concat("01_parte_primera/p1_s1_c1.md"),
+   sw_scope.concat("01_parte_primera/p1_s1_c2.md"),
+   sw_scope.concat("01_parte_primera/p1_s1_c3.md"),
+   sw_scope.concat("01_parte_primera/p1_s2_c0.md"),
+   sw_scope.concat("01_parte_primera/p1_s2_c1.md"),
+   sw_scope.concat("01_parte_primera/p1_s2_c2.md"),
+   sw_scope.concat("01_parte_primera/p1_s2_c3.md"),
+   sw_scope.concat("02_parte_segunda/p2_s1_c0.md"),
+   sw_scope.concat("02_parte_segunda/p2_s1_c1.md"),
+   sw_scope.concat("02_parte_segunda/p2_s1_c2.md"),
+   sw_scope.concat("02_parte_segunda/p2_s2_c0.md"),
+   sw_scope.concat("02_parte_segunda/p2_s2_c1.md"),
+   sw_scope.concat("02_parte_segunda/p2_s2_c2.md"),
+   sw_scope.concat("02_parte_segunda/p2_s2_c3.md"),
+   sw_scope.concat("02_parte_segunda/p2_s2_c4.md"),
+   sw_scope.concat("03_parte_tercera/p3_s1_c0.md"),
+   sw_scope.concat("03_parte_tercera/p3_s1_c1.md"),
+   sw_scope.concat("03_parte_tercera/p3_s1_c2.md"),
+   sw_scope.concat("03_parte_tercera/p3_s1_c3.md"),
+   sw_scope.concat("03_parte_tercera/p3_s2_c0.md"),
+   sw_scope.concat("03_parte_tercera/p3_s2_c1.md"),
+   sw_scope.concat("03_parte_tercera/p3_s2_c2.md"),
+   sw_scope.concat("04_parte_cuarta/p4_s1_c0.md"),
+   sw_scope.concat("04_parte_cuarta/p4_s1_c1.md"),
+   sw_scope.concat("04_parte_cuarta/p4_s1_c2.md"),
+   sw_scope.concat("04_parte_cuarta/p4_s1_c3.md"),
+   sw_scope.concat("04_parte_cuarta/p4_s2_c0.md")
 ]
 console.log(sw_scope)
 // Functions:

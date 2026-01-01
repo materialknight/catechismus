@@ -176,6 +176,24 @@ li:has(ul) {
    justify-self: center;
 }
 
+/* EXCLUSIVE STYLES */
+
+.creed-comparison-table {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: repeat(8, auto);
+   grid-auto-flow: column;
+   column-gap: 10px;
+}
+
+.commandments-table {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-rows: repeat(12, auto);
+   grid-auto-flow: column;
+   column-gap: 10px;
+}
+
 /* COLOR PICKER COMPONENT */
 
 #color-picker {
